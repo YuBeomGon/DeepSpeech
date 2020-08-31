@@ -1,0 +1,95 @@
+bin/start_train.sh
+WARNING:tensorflow:From /home/beomgon/deepspeech-train-venv/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py:494: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+
+W0131 14:27:20.775186 139946519029568 deprecation.py:323] From /home/beomgon/deepspeech-train-venv/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py:494: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+
+WARNING:tensorflow:From /home/beomgon/deepspeech-train-venv/lib/python3.6/site-packages/tensorflow/python/data/ops/iterator_ops.py:348: Iterator.output_types (from tensorflow.python.data.ops.iterator_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.data.get_output_types(iterator)`.
+W0131 14:27:20.830392 139946519029568 deprecation.py:323] From /home/beomgon/deepspeech-train-venv/lib/python3.6/site-packages/tensorflow/python/data/ops/iterator_ops.py:348: Iterator.output_types (from tensorflow.python.data.ops.iterator_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.data.get_output_types(iterator)`.
+WARNING:tensorflow:From /home/beomgon/deepspeech-train-venv/lib/python3.6/site-packages/tensorflow/python/data/ops/iterator_ops.py:349: Iterator.output_shapes (from tensorflow.python.data.ops.iterator_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.data.get_output_shapes(iterator)`.
+W0131 14:27:20.830604 139946519029568 deprecation.py:323] From /home/beomgon/deepspeech-train-venv/lib/python3.6/site-packages/tensorflow/python/data/ops/iterator_ops.py:349: Iterator.output_shapes (from tensorflow.python.data.ops.iterator_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.data.get_output_shapes(iterator)`.
+WARNING:tensorflow:From /home/beomgon/deepspeech-train-venv/lib/python3.6/site-packages/tensorflow/python/data/ops/iterator_ops.py:351: Iterator.output_classes (from tensorflow.python.data.ops.iterator_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.data.get_output_classes(iterator)`.
+W0131 14:27:20.830688 139946519029568 deprecation.py:323] From /home/beomgon/deepspeech-train-venv/lib/python3.6/site-packages/tensorflow/python/data/ops/iterator_ops.py:351: Iterator.output_classes (from tensorflow.python.data.ops.iterator_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.data.get_output_classes(iterator)`.
+WARNING:tensorflow:From ./DeepSpeech.py:259: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+W0131 14:27:21.126487 139946519029568 deprecation_wrapper.py:119] From ./DeepSpeech.py:259: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From ./DeepSpeech.py:259: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+W0131 14:27:21.126673 139946519029568 deprecation_wrapper.py:119] From ./DeepSpeech.py:259: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+I Enabling automatic mixed precision training.
+WARNING:tensorflow:From ./DeepSpeech.py:77: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.  In particular, `tf.control_dependencies(tf.GraphKeys.UPDATE_OPS)` should not be used (consult the `tf.keras.layers.batch_normalization` documentation).
+W0131 14:27:21.152516 139946519029568 deprecation.py:323] From ./DeepSpeech.py:77: batch_normalization (from tensorflow.python.layers.normalization) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.BatchNormalization instead.  In particular, `tf.control_dependencies(tf.GraphKeys.UPDATE_OPS)` should not be used (consult the `tf.keras.layers.batch_normalization` documentation).
+WARNING:tensorflow:Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f47500dff28>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f47500dff28>>: AssertionError: Bad argument number for Name: 3, expecting 4
+W0131 14:27:21.180952 139946519029568 ag_logging.py:145] Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f47500dff28>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f47500dff28>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f47500f6780>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f47500f6780>>: AssertionError: Bad argument number for Name: 3, expecting 4
+W0131 14:27:21.221920 139946519029568 ag_logging.py:145] Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f47500f6780>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f47500f6780>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f47500f6780>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f47500f6780>>: AssertionError: Bad argument number for Name: 3, expecting 4
+W0131 14:27:21.261769 139946519029568 ag_logging.py:145] Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f47500f6780>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f47500f6780>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:From /home/beomgon/deepspeech-train-venv/lib/python3.6/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0131 14:27:21.274555 139946519029568 deprecation.py:506] From /home/beomgon/deepspeech-train-venv/lib/python3.6/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:Entity <bound method LSTMBlockWrapper.call of <tensorflow.contrib.rnn.python.ops.lstm_ops.LSTMBlockFusedCell object at 0x7f474833e3c8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method LSTMBlockWrapper.call of <tensorflow.contrib.rnn.python.ops.lstm_ops.LSTMBlockFusedCell object at 0x7f474833e3c8>>: AttributeError: module 'gast' has no attribute 'Num'
+W0131 14:27:21.371308 139946519029568 ag_logging.py:145] Entity <bound method LSTMBlockWrapper.call of <tensorflow.contrib.rnn.python.ops.lstm_ops.LSTMBlockFusedCell object at 0x7f474833e3c8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method LSTMBlockWrapper.call of <tensorflow.contrib.rnn.python.ops.lstm_ops.LSTMBlockFusedCell object at 0x7f474833e3c8>>: AttributeError: module 'gast' has no attribute 'Num'
+WARNING:tensorflow:Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f474822ea90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f474822ea90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+W0131 14:27:21.426217 139946519029568 ag_logging.py:145] Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f474822ea90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f474822ea90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f474822ea90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f474822ea90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+W0131 14:27:21.462093 139946519029568 ag_logging.py:145] Entity <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f474822ea90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BatchNormalization.call of <tensorflow.python.layers.normalization.BatchNormalization object at 0x7f474822ea90>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:From ./DeepSpeech.py:240: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0131 14:27:21.468009 139946519029568 deprecation.py:323] From ./DeepSpeech.py:240: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/beomgon/deepspeech-train-venv/lib/python3.6/site-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+W0131 14:27:22.335984 139946519029568 deprecation.py:323] From /home/beomgon/deepspeech-train-venv/lib/python3.6/site-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+INFO:tensorflow:Restoring parameters from data/Zeroth/clips/ckpt4/train-612
+I0131 14:27:22.337287 139946519029568 saver.py:1280] Restoring parameters from data/Zeroth/clips/ckpt4/train-612
+I Restored variables from most recent checkpoint at data/Zeroth/clips/ckpt4/train-612, step 612
+I STARTING Optimization
+Epoch 0 |   Training | Elapsed Time: 0:01:02 | Steps: 61 | Loss: 180.952910  

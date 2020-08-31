@@ -1,0 +1,193 @@
+wav_filename,wav_filesize,transcript
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000129.wav,274284,a ni S geun S ha yeo teun S geun de S mag S geu geo cheo reom S geu reoh ge S geu reon S geon S a ni go S ha i teun S mwo S myeoch S cho gan S un dong ha se yo S yag gan S i reon S geo 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000856.wav,122604,gal kwo ra ni ka 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124841.wav,67084,S geu nyang S mal hae S bwa S mwo S is ji S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124730.wav,220236,S sig gi deul eun S il dan S cheo eum e S ga seo S bo go S sa ya S doel S geo S gat gin S han de S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124809.wav,134508,geun de S gyul eun S eobs eo S ga ji go S an e S deul eo ga seo S sin ra myeon S meog eos eo 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124698.wav,454764,geun de S geu ge S o hu S ban i S sa ram i S manh as geo deun S geu rae seo S na do S dae S na do S geu S mal S deul eo ga ji go S dae gong S geo ka ji S da S gwa jeong S syas S hae ga ji go S man deul eos neun de S sa ram i S manh a ga ji gu S dae gong S geo neun S gwaen chanh eu ni ka S se gong S geos man S bal pyo ha ra go 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124116.wav,69164,a S geu rae seo S geu S yae gi haes da S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124581.wav,95020,a S jin cha S neo mu S job da 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124327.wav,80556,S geo gi S doe ge S jal S dwae S is deon de S geu S eo di deu ra S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124517.wav,88204,a S na S sog i S neo mu S an S joh a jyeos eo S ji geum 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124853.wav,82988,S an S mul S jin cha 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000801.wav,106636,won rae neun S i je S yag gan S tong hab sig eu ro S mun je ga S na wa ya S doe neun de 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000654.wav,300204,geu rae seo S go peu ro na S a ni myeon S geu S bo deu S ta neun S yeong sang S chwal yeong hal S tae do S geu reon S geo S han beon S hwag in hae ya S doel S geo S gat ae S eol ma na S bon in i S chig eul ji S an geu reo myeon S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000902.wav,47468,geu geo ji 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124457.wav,210156,geun de S keun S cha i ka jin S a ni go S mwon ga S a ni S an gyeong eun S keun S cha in de S me i keu eob do S deo S keun S cha i ya 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124205.wav,60012,S pi dog 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124758.wav,295020,geu rae seo S ha go S is neun S geo ji S na do S joh a ha neun S geo S is eos eu myeon eun S geu ge S mil eo but il S su ga S is eos eul S ten de S geu ge S eobs eu ni ka S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000236.wav,214348,je ju ga S a ni ra S mwo S tas ji S a si a na S a S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000602.wav,289324,S a i S geu nyang S pa jyeos eo S neo mu S ga gi ga S silh eun S geo ya S geun de S i beon e S eol ma S jeon e S ae deul i rang S jong gang ha go S da si S man nas neun de S S sa S jeom S yeong S na was da deo ra go 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124677.wav,56300,S keun S geo S deul eo ga ne 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000209.wav,58572,maj a S ji geum S geu reol S saeng gag i ya 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124243.wav,76204,eo S jig gwan eun S eo S han S beon do S eobs eul geol S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000612.wav,103852,a ma S si gan S gang sa do S manh i S an S bad eul geol S nae S saeng gag en S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000436.wav,151052,S ji geum S saeng gag S jung i ya S a mu S mal i na S ha go S is eo S bwa 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000107.wav,102156,S geu reo ni ka S so reum in S geo ya S eo teoh ge S geu reon S si gag eu ro S ae reul S bol S su ga S is ji S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000274.wav,97548,geun de S mwo S pae seu teu S geu reon S geo S is ji S anh a S yu ni beo syeol S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000020.wav,265260,S a S seol S yeon hyu S tae S jib e S is ges ne S geu reom S geo ui S eum S geu S yeop jib S sa neun S ae S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000877.wav,425932,S do S che ko S dog il S yeop e S che ko do S nae ga S saeng gag i S eobs eos neun de S ga go S sip eo jyeos eo S eo S geu S sam S pal ti ga S che ko S geo ya S eo S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124623.wav,177708,han seong dae do S geu nyang S ji na gan S ni ne S jib S ga ryeo myeon S yeog S ji na neun S i reum S jung e S ha na ga S han seong dae ni ka 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000698.wav,56588,S mu jo geon S e eo keon man S is eo 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000353.wav,63852,a S i geo S doe ge S eo saeg ha ne yo S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000503.wav,92396,S joh da S geo S jin cha S joh eun de S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000845.wav,408780,S i je S jeon nal S teu wi teo e S sa ram deul i S hu gi ro S mag S il S yeol in S sa ram deul eun S ta ro S eo syeo han te S an nae bad eu ra go S geu rae ga ji go S ti kes S bad go S a S jeo S il S yeol in de yo S ha ni ka S yeop e S jeo S nop eun S tim jang i S a S jeo han te S wa S ju se yo S i reo myeon seo S seol myeong hae ju neun S geo ya S geu seo S nae ga S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000865.wav,55244,geu rae S geu reo myeon eun S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124313.wav,48748,o rae doen S geon S a nin de 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000585.wav,224812,myeong ran S ma yo S han beon S meog eo bo go S sip da S nae S chin gu ga S han S beon S myeong ran jeos eul S jun S jeog eun S is geo deun S geu ni ka S myeong ran S ma yo reul S man deul eo S meog ja go S geu rae seo S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000617.wav,146924,a S maj da S na S nae il do S swi neun gu na S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000007.wav,387084,S geu rae ga ji go S jin cha S cha S sa ya ges da S a ni S mwo S cha S an S doe myeon S seu ku teo ra do S ta ya doe ges da S mag S geu reon S saeng gag S deul deo ra gu S geu rae seo S un jeon eun S ha neun S ge S joh eun S geo S gat ae S jin cha S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000270.wav,129324,gim je S gat ae S geu S geu S jeong do neun S a nil S geo S a ni ya 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124042.wav,117804,S i S jin cha S mas is da go S ha deo ra go 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124870.wav,58444,ja gi S nae ga S jwos eos na S og su su S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000499.wav,83532,eum S geu reo myeon S an S doe neun S geo S gat ae 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000378.wav,32428,eung S geu ge S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124285.wav,237036,S a S hyeong gi S eo je S gun dae S gas eo S eo S eo je S ib dae haes eo S eo je S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000278.wav,355788,geu S dang si S u ri ga S to S eo di S ho tel i yeos deo ra S geu S ri be ra S ho tel i yeos deon S geol ro S al go is neun de S cheong dam e S geu tae S doe ge S jae mis eos ji S geu S tae S u ri S da gat i S su yeong S haes deon S geo S gi eog S na S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124434.wav,50604,saeng gag S jung i ya 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000154.wav,53196,nae ga S meon jeo S bo myeon S doe neun de 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124382.wav,252524,S geu rae seo S jeo huin S jib i S eobs eo yo S jin cha S jeo hui S i sib S chil S il S nal S teo nab ni da S dan S ha ru e S ha ru ra do S seo po teu hae S ju sib si o 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000788.wav,134060,al ges eo S da i so S ga seo S han S beon S sa wa seo S jib e seo S hae bol ge 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124439.wav,122604,na neun S geu nyang S na peu ji S anh da go S saeng gag hae 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124592.wav,324428,jab gog bab eul S hae ya S doe neun de S neul S ba peo ga ji go S sal bab eul S hae seo S jom S mi an ha gin S hae S dang nyo byeong e S is eo seo 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000462.wav,153356,a rong i ga S han S da S yeo seos S sal S tae S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000052.wav,57228,S a i S mal hae bwa 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124547.wav,242924,S geu rae seo S ha ru S mos S ga seo S geo bug i S du S ma ri ga S jug eo beo ryeos eo 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124017.wav,204492,S na S ba kwo ya ji S na S na S a i pon S ba kul S geo ya S geun de S na S geu geos do S sa go S sip eo S geu S e eo pas 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124702.wav,176396,eo S a S geun de S kae ga S gas deon S geo reul S bo ni ka S jom S bae gyeong S i peu deon de 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000929.wav,80972,S ga ge yo S a 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000167.wav,70540,S chil S gi S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124371.wav,92172,na neun S geu S jeong do neun S a nin S geo S gat ae S myeo chil eun S a ni go 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000885.wav,129324,S neo S mu seun S eum sig eul S jel S joh a hae S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000333.wav,82092,as S na neun S geu ge S an S dwae S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000138.wav,61580,nae ga S jeo geol S han beon S hae bo go S sip eos neun de 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124136.wav,48428,ha go S sip eo do S mos S hae yo S geu reon S il 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124943.wav,108716,geun de S mwo S gu beo jeon S seo do S doe go S jung go ro S gu hae seo 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124621.wav,150348,S a ni S geun de S sol jig hi S eo je S u ri S mal haes eul S tae S jin sim S a ni eos janh a 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000613.wav,403564,do S di ja in i janh a S geu ni ka S da deul S mag S geu nyang S gwa je ka ji neun S bun myeong hi S geu jeo S geu raes geo deun S jeo S sa ram i S jal S ha na S i raes neun de S gab ja gi S neun S eom cheong na ge S gong eul S deul yeo ga ji go S man deul eo S o neun S geo ya 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124534.wav,271436,S geun de S seon bae deul i S maen nal S in che hae bu hag eun S gong bu ha ji S mal ra go S geu nyang S gong bu S an S ha go S chig eu myeon S seong jeog S jal S na o neun S geo go S gong bu hae do S seong jeog S an S na on da go S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124227.wav,458924,chin ha ge S to S sae ro S i je S man nan S a ni da S il S nyeon S dwaes geo deun S geu S jag nyeon e do S gat i S haes deon S ae deul i ya S sim ji eo S a neun S chin han S ae deul i ya S geu rae seo S geu reoh ge S han S geo ji S geun de S geu S seon saeng nim S i je S cheo eum S o sin S bun i geo deun S geu rae seo S jal S mol ra 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000257.wav,174540,geu reo myeon eun S gud i S ui mi ga S eobs eul S geo S gat eun de S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000090.wav,83212,ae deul S mag S mos S mag janh a 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124022.wav,176876,geun de S gud i S sin rim S an S ga do S doe ji S anh a S neo S nae ryeo ga do S doe neun S geo S a nya S eo cha pi S hyu hag ha myeon S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124208.wav,136716,S seo po teu neun S kog S hil man S ha neun S ae deul i S him S rol e seo neun S kog S hil man S ha neun S ae deul S hi 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124125.wav,452652,geu S sa jin S chig neun S a jeo si ga S chom S deo S chin ha ge S hae do S doel S geo S gat da go S geu raes dan S mal ya S a S deu re seu S a jum ma ga S geun de S jin a S haes deon S de S chu cheon bad a ga ju S gas neun de S geo gi ga S deo S jal hae jwos eo S hwa jang eul S sin gyeong S eom cheong S manh i S seo jwos eo S nun S hwa jang e 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000279.wav,230318,geu rae S mu ryo do S a ni go S don S ju go S ha neun S geon de S geu geo reul S sin cheong ha go S an S gas da go S da eum S mos S bo ge S ha myeon S gyae ne deul i S son hae ya 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124939.wav,193964,yeo ja S yeo ja S is eos neun de S seon deog dae wang in ga S seon deog yeo wang in ga S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124984.wav,209036,neo S gas ji S nan S geu ge S gi eog e S nam ji S mol ra S ban e seo S da S gat i S gan S jeog i S is na S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124249.wav,63724,geu geo S in man chu S a ni ya S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124191.wav,55340,goeng jang hi S i je 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124838.wav,348588,S a ni ya S geun S a ni S yo jeum S yo jeum S ae deul S an S geu rae S yo jeum S ae deul S gong bu hae S cho deung hag gyo S sam S hag nyeon bu teo S gwa oe rang S geu geo S eom cheong S twin dae S yo gi S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000029.wav,36076,al ges eo 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124437.wav,62316,a ni S da S eobs eo jyeos ji 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124725.wav,41548,ni S keo S eo teoh ge S kal as neun de S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000359.wav,107020,S o S saeg kal S ye peo S eo S na do S i S pal gan S geo S sa go S sip da 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124999.wav,55916,geu reol S tae bak e S han S ne S da seos S beon 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124393.wav,479148,na S be teu nam S yo sae S ti bi e S be teu nam i S neo mu S ye peu go S geu S eum sig do S neo mu S han in han te S maj ge S na on da neun S geu reon S mal i S manh a ga ji go S ga gyeog do S sa go S geu rae ga ji go S be teu nam S kog S ga go S sip eo 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124367.wav,169772,man yag S nae ga S na gas eu myeon S cha pa ge ti S an S keulh yeo S meog eos ges ji S geu raes eu myeon S gwaen chanh eul S su do S is eo 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000536.wav,52492,S mog dong yeog S jin cha S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000432.wav,138988,a ni S geu reo ni ka S geu S bo reo S ga neun S geo ji S nol reo S ga neun geo ji S geu nyang 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000364.wav,86700,geu S hyeong eun S eo di e S sa neun de S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124171.wav,153644,S nae ga S al gi ron S wae S seu ta pil deu do S doe neun S geol ro S al go S is ji S eung 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000741.wav,183116,a S bol S su S is eul geol S ji geum S hwag in S da S doel geol S geu rae seo S na S re po teu S man jeom S bad as eo 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000337.wav,168492,S eon je S ga ge S a ye S an S ga ge S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124309.wav,52076,cheo eum S deul eo S bwa 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124453.wav,60748,geu S mi swel rin S ta i eo S dalm eun S hyeong S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124661.wav,267948,geun de S nae ga S mag S gong jang S gas da ga S seu ki jang S gas da ga S mag S was da S gas da S eom cheong S haes janh a S gwang ju S gas da ga S seo ul S gas da ga S geu rae ga ji go S na do 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124458.wav,290060,nae ga S man yag e S na neun S neo ui S nae S dong saeng i S geu reo go S is dan S geol S al myeon S na S gat a do S seu reo jil S geo ya S geun de S eom ma myeon S deo S hwol sin S sim ha janh a S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124468.wav,89676,ja a S seong chal S eo S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000239.wav,255564,S sim ji eo S geu geo S jin cha S wan jeon S seo ul e S is neun S geos do S a ni go S mit e S is neun S geon de S jin cha S i hae ga S an S gas eo S geu tae 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000187.wav,129452,geu reon S gyeong u neun S chul saeng sin go reul S an S ha neun S gyeong u ga S saeng gag bo da S manh go S ji geum do 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124423.wav,443052,S geu tae S i hu ro S jung gug S gyae ga S mwo ra S hae ya doe nya S jung gug i rang S sa yong ha neun S eon eo S ja che do S da reu da go S geu reoh ge S mal han S i hu ro neun S a S nae ga S geu reon S yae gi reul S cho keum S silh eo ha neun S geo S gat da ran S saeng gag i S deul eo seo 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124716.wav,273388,yes nal e S mag S geu reon S eum mo ron S manh as janh a S pen ta gon S an e S mwo S geu S oe gye in S jeon dam S bu seo S is da S mag S i reon S geo S mag S mid geo na S mal geo na S chaeg e S maen nal S is eos janh a S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000409.wav,195276,geo gi S dwi chog e S dae gag seon S dwi chog eu ro S yang jung S ga neun S bang myeon eu ro S bo myeon eun S mu seun S geon mul S ha na S is neun de S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124133.wav,434892,S go min i S is eul S tae S ha S chin gu han te S i reon S yae gi reul S hae do S doe neun gu na S geu geo reul S mos S haes eos eo S sol jig hi S geu reo ni ka S neo neun S ga keum S na han te S yae gi reul S ha myeon seo S neo neun S wae S eo teoh ge S i reoh ge S ni S ma eum eul S mos S teo noh eu ni S neo han te S ni ga S na han te S han S jeog i S is ji S ji geum S geu reon S mal i 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124848.wav,213164,jin jeon i S a mu rae do S hui gwi byeong i ra neun S geo S geu S ta i teul e seo S je ga S jom S eo ryeo wo seo S geu reon S geo S gat ae yo 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124584.wav,65164,S a i si S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000290.wav,75308,jeo beon e do S il bon S han beon S gas da S o ji S anh as ni S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124472.wav,320044,geu rae S ga ji go S bu pyeong e seo S u ri S hag gyo S ga neun S beo seu ga S is eul S sun S is ji man S geo gi seo S ta myeon eun S geu nyang S ju an S ga seo S ga myeon eun S sam sib S bun i myeon S gal S geo S geo gi seo S ga myeon S han S si gan S sib S o S bun S geol ril S keol 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124914.wav,218316,S ke i e peu si S mit e S han cham S mit e S i je S ros de ri a S geu S mit e S maeg do nal deu S geu S han cham S mit e S geu reon S geo S gat ae S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000012.wav,187980,maj a S si gan S an e S pul go S yag gan S i geos bu teo S pul go S yo reon S sig eu ro S pul eo bo ryeom S i reon S geo S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124063.wav,148588,al ba S al ba S nu gu yeos neun de S a S geu rae S gi eog S an S na 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000672.wav,150284,S yu mog min i rae S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000054.wav,67852,geun de S jin cha S jal hae 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000984.wav,198410,geun de S hyeong do S he eo ji go S na seo S jag eob sil eul S gye sog S gat i S seos janh a yo S eul ji ro e seo S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124041.wav,120108,S ya S geun de S jin cha S ae deul S geo ui S da S dae hag gyo S il S hag nyeon S keut na go S gun dae S ga ne 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000193.wav,63308,ji ha cheol i S jel S pal ra 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124734.wav,115244,geu S hon bae S mi sa e S in je S cham seog han S sa ram deul han te S gam sa ha da neun S ui mi ro 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124164.wav,122508,S na han te S yes nal e neun S mi sul S gam dog ha go S sip da S geu raes neun de S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124715.wav,65836,geu S il wol S web tun S il wol S web tun S jung e 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000567.wav,162476,S a S sa ju gi ro S haes eo S gat i S geu S eo di nya S cho bab jib S geu S mwo ji S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124059.wav,138924,geu chi S hu ku o ka S se S beon S ne S beon chae da S i beon e S ga myeon S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124163.wav,155724,S neo ne S nu na S ha neun S geo S bo go S ga ya ges da 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124610.wav,102316,geun de S ja gi S hon ja S sal a seo S neo mu S joh as dae 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124804.wav,76780,gyae S nae S a i di neun S gang nam mi in S na on S ae S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000380.wav,195084,a ni S ba da myeon S geu S keut e S da S hoes jib i janh a S ba da S ba ro S ap e S da S hoes jib i janh 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124430.wav,283308,S geun de S ap e seo S eo teon S a jeo si ga S i sib S man S won e S sa ge S hae jun dae S geu rae ga ji go S mwon ga S sun gan S hog S han S geo ya S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124694.wav,60876,gong mo jeon S yae gi ga S wae S na was ji S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124673.wav,118348,beu raen deu S byeol ro S rong S pae ding eul S neo mu S manh i S nae seo 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000162.wav,87884,a S maj da S u ri S dae hag gyo S ga ya S doe ji 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000773.wav,283852,S jong gang i S eon je nya go S i sib S il S nal S ma ji mag S si heom S bo go S geun de S u ri S hag gyo ga S jong gang i S jel S neuj deo ra go 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000991.wav,145964,ji geum S geu rae S a pa do S meo ri sut S jin cha S manh as eo 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000455.wav,164844,S geun de S man S won cha ri S ki myeon S nun S a pa ga ji go S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000395.wav,129356,geu reo myeon S mwo S yag gan S jom man S bwa seo S mo reu ges ji man S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000965.wav,77452,cheos S jeon gong i ya S i je S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000184.wav,118604,na S al janh a S won rae S pa ku S eobs neun S geo 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000125.wav,37932,S eung 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000146.wav,75500,a S eo di seo S mwon ga S nach i S ig eos eo yo 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000776.wav,86732,S geu reo ni ka S mwon ga S jeul gyeos deon S geos do S eobs janh a 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124937.wav,86860,S chin gu deul eun S jin cha 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124509.wav,74796,S geu nyang S i reum man S neoh go S sin cheong man S han S geo ya S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000583.wav,284588,eung S eun de S mwo ji S gwa S teug seong sang S geu reoh ge S na neun S manh eul S geo ra S saeng gag S an S haes eo S yag gan S jung gug eo gwa neun S sa S jeom dae S jo geum S manh as geo deun S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000230.wav,289164,geo myeon S nae ga S ya S ni S yeol han S ja ri S ga S bwas ji S yeol han S ja ri S geom S geo gi e S nae ga S geu S yeop e S jig won S is janh a S nae ga S geu S jig won S yeog hal eul S hal ge S gat i S bae wo seo 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124908.wav,88396,S saeng gag hae bo ke 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000796.wav,102092,S eung S wae S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124134.wav,53772,yong han i 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124731.wav,148428,eo S du S dae myeon eun S cho gom S gong gan i S eobs eul S tae do S is ges ne 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124912.wav,208076,S meo mu reu myeon eun S jung gug han te S meog hil S ten de S jung gug han te S meog hil S ten de S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000351.wav,256556,ga S bae go peun S geo S eu seo S a ka S u ri S u ri S geo gi S jam sil e S o myeon S deon kin do neo cheu ga S is eo seo S yo man han S geo S se S gae S meog go S wa seo S neo mu S bae ga S go peu deo ra go S eo je S jeo nyeog e du S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000304.wav,435788,S na S geu geo S na S jin cha S silh eo S geu geo S bol S tae ma da S eo u S sog eu ro S os i S jeo geos bak e S eobs na S wae S bo tong S mwo S tab ten i rang S yu ni keul ro S ga myeon S sa jin S manh janh a 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124931.wav,76940,S na S maen nal S jeon hwa ha myeon S ti bi S bo go S is eo 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000429.wav,64716,gyae ga S bae u S jun bi ha neun S ae janh a 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124521.wav,115980,a ni ji S na neun S jae su hae seo S joh eun S seong jeog eul S da si S nael S su S is ji 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124279.wav,172876,S yu chi won i S geu S ja gyeog jeung S is eo ya S yu chi won S hal S su S is go 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124830.wav,119532,S geu reo da ga S i je S na jung e S dol a ga gi S jeon e 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124090.wav,39660,i beon e S su neung S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124576.wav,153868,geu reoh gu na S geu geol S bwas eul S tae S na neun S jin cha S geun de S jom S jae su S eobs ge S deul ril S su S is neun de S jin cha 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000989.wav,60748,geu rae ga ji go S am teun S tas neun de S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124906.wav,114220,S a i S gwaen chanh da go S eo S a jig S gwaen chanh da go 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124776.wav,431084,ge im S manh i S ha ji S geu rae seo S a ma S ji geum S ji geum do S su eob S jung gan jung gan e S bang e seo S is neun S ae deul S is eul S geo go S su eob S da S keut na go S bam e S jib e S an S deul eo ga go S bang S ga neun S ae deul do S is eul S geo go 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000118.wav,101358,ga myeon eun S seo ya S dwae S geu nyang S i geos jeo geos S hal S ge S manh a 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124158.wav,83212,geu geo S byeong won eul S an S ga seo S gye sog S a pa ya S doe ni ka S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124981.wav,381900,S silh eun S geol ro S ha ja S a S mwo reul S jol eob ha go S na S yo jeum e S wi ni bi ni e S koj hyeos eo S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000240.wav,385964,na neun S mwo S neo ga S na han te S bu reob da go S han S myeon e S dae hae seo neun S sol jig hi S nan S keu ge S jang jeom i ra S saeng gag S an S hae S ga S ta go nas da S saeng gag hae S eo ril S tae bu teo 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000873.wav,334572,bae seu kin ra bin seu rang S ka pe S gat eun S geos do S eom cheong S manh go S ni ga S geu S i yong hal S su S is neun S ge S manh a S chom S manh a S geu S a i seu ring keu jang S i reon S geos S di jeu ko S geu nyang S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000026.wav,51180,bog sing S an S bae wo bwas eo S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000208.wav,158188,S neo mu S seu teu re seu bad a S yeo haeng S ga gi S jeon e S yeo haeng S i mi S gas da S on S geo S gat ae S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124991.wav,333132,S eo S eo S eo S ya S yag S pa neun S sa ram S gat ae S neo S eo S eung 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000556.wav,48812,ga S sae ro un S gam dog 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124026.wav,261452,S in ryeog S gwan ri reul S mos S haes da go S chal ryeos eo S geu S geu ge S han S yug S gae wol S jeon e S geo S sae ro S wo S wa ga ji go S chal rin S ge S eol ma S jeon e 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000369.wav,53612,yu tyu beu S mwo S bwa S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000888.wav,357836,mag S keu ro ma ki do S mos S ta gu yo S mos S ha neun S geo S eom cheong S manh eun de S jeong mal S jeo neun S il reo seu teu e seo S pen S tul eul S seul S jul S al a yo S ha neun S geo rang S tog gat eun S jeong don de 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124397.wav,292524,S mwon ga S bab S meog eul S sa ram S gu hae do S gu hae ji ji do S anh a seo S a S jin cha S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000458.wav,63180,eo S geo gi S i sib S sa S si gan S is deo ra go 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124139.wav,212012,geu tae S geu geo S meog eos ji S geu S geu nyang S ga jeong sig S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124007.wav,159084,S tae yang S sig dang S geo gi S maen nal S jul S eom cheong S seo neun S dae janh a 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124735.wav,103436,S a S neo mu S us gyeo S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000080.wav,372204,geun de S jeo S myeong ji dae S da ni neun de S hag gyo S ju byeon e S mag S i dae S yeon dae S hong dae S seo gang dae S i reoh janh a yo S geu rae seo S geu reon S ae deul S eom cheong S mu si ha deo ra go yo 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000854.wav,151180,chin gu S hae ju go S geun de S nae ga S us gin S ge 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000044.wav,54028,a ni ya S jom S sim haes eo S jin cha 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000564.wav,108204,S ni S won rae S neuj ge S ja janh a 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000008.wav,41420,geu rae 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000081.wav,101420,dae gang S geu reoh ge S hae seo S chi myeon eun S chil man S han S geo S gat deon de 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124597.wav,474476,na S saem S na neun S geu reoh ge S gu bun eul S jal S mos S ha geo deun S sae ma eul ho rang S mu gung hwa ho S manh i S an ta S bwa seo S geun de S mu gung hwa ho do S eun geun S nalg as eo do S mwon ga S a neug ham i S is deon de S chom S jwa seog do S chom S neolb ji S anh a S mu gung hwa ho ga S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124670.wav,280044,da si S jeon hwa reul S hae bwas deo ni S hyeon jang S jeob su ro S ha myeon eun S ba kwo jun da go S i rae ga ji go S da seos S si e S il eo na seo S gas da S was eos eo 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124655.wav,82732,wae S i reoh ge S hang sang S geu reon S sig i ya S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000320.wav,130860,S a ni S geu S ye eun i ga S do wa jun da S haes ji S anh as nya S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124282.wav,147788,S du S myeong S je oe S na meo jin S geo ui S da S gal as eo S jo yeon S pae go S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000076.wav,192396,S yo gi S sal a S yeo gi S geu S eo di ji S sang su dong 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000401.wav,251564,geu reon S geo S gat ae S a S mul ron S na do S ra ra raen deu S jae mis ge S bwas eo S geun de S mag S myu ji keol yeong hwa ra go S mag S chaj a da ni neun S pyeon eun S a nin S geo S gat ae 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000376.wav,165388,geu S hyeong sig jeog eu ro S man na go S keut nae ja go S geu nyang S eo S bu mo deul S geog jeong ha sin da go S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_01/KsponSpeech_0001/KsponSpeech_000065.wav,212204,S eo S geu reo ji S mal ra S geu rae S na S jin cha S geun de S i beon e S to S o myeon S jin cha S cha dan hal S geo ya 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124964.wav,33740,mwo S is eo S 
+/home/beomgon/DeepSpeech/data/KO/test/KsponSpeech_02/KsponSpeech_0125/KsponSpeech_124256.wav,118892,S ne S geu S do sag yong S kal ro S i ke S chwag chwag S chyeo nae ga ji go 

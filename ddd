@@ -1,0 +1,9 @@
+
+def test_generator():
+    print('yield 1 전')
+    yield 1
+    print('yield 1과 2사이')
+    yield 2
+    print('yield 2와 3사이')
+    yield 3
+    print('yield 3 후')
