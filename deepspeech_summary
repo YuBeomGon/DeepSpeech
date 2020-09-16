@@ -1,0 +1,69 @@
+딥러닝을 이용한 EndtoEnd 음성인식 연구
+  크게 3가지 방법으로 한국어 음성 인식에 대해 진행(for zeroth/aihub)
+    음절 단위 : [가-힣]까지 약 2000개의 한국어 음절에 대한 training - 기능 테스트 목적으로 기능 동작확인 후 종료
+    음절 단위 + 로마자 변환 : 위 약 2000개의 음절을 로마자로 변환하고(a-z) a-z까지 26개 단어에 대한 학습 진행
+                                              AI hub data를 토대로 음절 사전을 만들고 그것을 자모로 변환후(library 사용) 각각의 자모에 대한 로마자 변환 mapping table을 만들어서 Data set 준비
+                                              sample data로 테스트 후 전체 data에 대해 training format(csv file)을 만드는 중 예외 케이스가 발생하여 홀딩함
+                                              장점 : 영어에 대한 검증이 완료되었기에 어느 정도 성능 보장 가능
+                                              단점 : 한글 /로마자 mapping이 규칙 기반이고 예외 케이스 존재 가능, 또한 다수 대 다수 매핑시 한글 변환 문제.. 등
+    음절 단위 + 자모 분리  : ㄱ-ㅎ, ㅏ-ㅣ, ㄱ-ㅎ, 겹받침 등 초중종에 따른 자모 분리를 하고 각 자모에 대한 training을 진행
+                                            현재 training을 진행중이며, 성능이 현재는 미비한 상황
+                                            특정 겹받침의 경우(ㄾ ㅀ 등 data sample이 작아서 overfit 될 수 있고 training에 영향을 미칠 수 있어 고민이 필요)
+
+                                        
+DeepSpeech
+  DeepSpeech input pipe line 코드 분석, tensor의 변환 및 deep learning model 분석
+    32ms단위로 26차원의 MFCC값을 취하고 20ms overlapping을 하면서 좌우 9frame의 context를 취해준다. frame당 총 26*19의 feature dimension을 갖게 됨
+    위 feature dimension을 input으로 받아서 3개의 Dense hidden layer와 연결, 여기서 Dense layer는 convoluiton과 같이 인접셀(좌우 9frame)의 context를 뽑는 역할을 한다.
+    위에 순방향 LSTM을 올려서 sequncail한 정보를 뽑고 그 위에 dense layer를 몇개 더 얹는다.
+    wav file size에 따라 sorting을 하고 비슷한 길이의 file을 모아 mini batch로 training을 진행한다.  mini batch 안에서 길이가 안 맞는 경우 padding bit을 넣어 input의 size를 맞춰준다.(code 확인 필요, 논문 및 web에서 확인) 
+    CTC 자체가 variable length input에 대한 Loss function으로 기본적으로 CTC-RNN 기반 deep leaning  모델은 input size의 variance에 강한것으로 생각됨.
+  GPU memory issue로 인해 batch size가 최대 32밖에 안되고 이로 인해  learning_rate를 같이 줄여준 후 training이 좀더 지속이 됨을 확인
+    테스트 결과 중 src와 비슷하게 나오는 경우도 확인
+    data augemtion이 있으나 spectogram대상으로 augmentation이 이루어지고 원본 spectogram 데이터에 추가되는 것이 아니라  변형되는 식으로 이루어짐. 값을 바꿔가면서 테스트해 볼 필요 있을 듯.
+  1d convolution 등을 시도해보았으나 tensor shape mismatch 발생, 확인 필요
+  언어모델 관련 Text data 필요
+    AI hub 채팅 data와 지식 서비스 기반 data 언어모델 개선 목적으로 다운로드 요청
+    beatiful soup 을 이용한 web crawling 코드 준비 중, 나무 위키 web page에 대해 link와 text를 뽑도록 테스트를 해 보았으며 재귀적으로 수행하는 방법을 고민 중
+    나무 위키나 PGR21등 정제된 언어를 사용하는 몇개의 싸이트 기준으로 크롤링 시도할 예정   
+    Plan To Do
+EndtoEnd 음성인식 SW 개발
+  DeepSpeech의 Deeplearning model 개선(음절 단위 + 자모 분리)
+    data augmentation - 원본 wav file에 augmentation을 해서 training sample을 늘리는 것 (pitch, speed, noise, etc), batch를 모을 때 wav의 길이 기준으로 batch를 모으기 때문에 동일한 음성파일이 batch에 여러개 들어갈지도
+    data augmentation in spectogram - 테스트 해보고 성능에 영향 있는지 확인 필요
+    음절단위로 인식된 것을 띄어쓰기를 고려하여 어절 단위로 transformation을 해야 한다. 2가지 옵션 및 고려해야 할 부분이 존재
+      기존 deeplearning output에 ctc와 어절 단위 LM을 결합하여 text를 출력하도록 수정, 코드 수정이 많이 필요해 보임
+      현재 자모 단위로 된 alphabet에 S(space)를 추가하여 언어모델 및 음성모델에서 space까지 포함하여 training하도록 테스트, 1번이 안될 경우 traing data 수정 후 테스트 예정
+      위 2가지 방법 모두 python 및 java script(서버용)에 모두 개발해야 한다.
+    1d convolution, multi rnn, overlapping시 context 수정 등 pipeline의 input format과 모델등을 수정해가면서 테스트 예정
+    
+DeepSpeech
+  DeepSpeech input pipe line 코드 분석, tensor의 변환 및 deep learning model 분석
+    Training/Test set을 화자별로 분리, 상식적으로 user에 해당하는 목소리가 빠져 있어야 된다. mfcc 자체가 user dependecy를 줄인 것이지만 그래도 wer이 조금 더 나빠짐
+    파이썬 라이브러리를 이용 자모 분리된 것을 다시 음절 단위 및 어절 단위로 이어 붙이는 것 구현,
+    Zeroth trainng 완료 이후 현재 Aihub data 대상으로 training 진행 중(1 epoch당 약 90분 소요
+    텐서플로우 스터디
+    텐서플로우 및 cudnn과의 호환 문제 잘생, format 및 재설치, decoder init시 segmentation error 디버깅 중
+    텐서플로우 기반 음성인식 deeplearning framework 서치(open seq2seq, lingvo) 
+    형태소 분석을 건너뛰고 음절단위로 나눈 후 공백을 포함하여 ngram을 돌렸을 때 띄어쓰기가 고려되서 잘 나온다. 일반 자연어 처리에서도 형태소 분석을 넘어가도 될 듯 하다.    
+자모 단위 세분화하는 것 가능성 체크
+  데이터 처리 및 나중에 합치는 부분을 따로 구현해야 한다.
+    현재 n gram이 Max 6로 되어 있고 kenlm 소스 빌드를 통해 이것을 확장할 수 있지만 파이썬 연계 모듈(ctc decoder 부분)과 호환이 되지 않는다. code level로 분석해서 필히 ngram Max size를 늘려야 한다.    
+
+
+DeepSpeech
+    DeepSpeech inference 부분 code 및 관련 서치 - wav file을 320ms씩 자르고 DeepSpeech 모델에 돌려 최종 output class를 얻고 이를 wav file 끝까지 반복하는 것으로 보이나, 관련 코드에서 실제 구현 부분 확인 필요.
+    tensorflow 음성인식 예제 및 Lingvo, openseqtoseq 및 tensorpack 음성인식 관련 체크, 예제 중에서 실제 돌려보면 에러가 발생하는 것이 많다. tensorflow 등의 버전 차이로 보임
+    zeroth data에 대해 화자별로 train, dev, test set을 나누었을 때 최대 7%의 wer이 나옴을 확인(음절 기준), 일대일 비교는 어렵지만 칼디 수준은 나오는 것으로 추정됨. (mfcc : 26, adam, truncated_normal weight init)
+    ngram order를 기준 6에서 최대 15로 바꿔서 Deepspeech training/testing까지 기능 동작 확인, kenlm 및 ds_decoder code 수정 후 컴파일된 whl파일을 pip로 인스톨.
+Tensorflow 관련 예제 및 스터디
+  Tensorflow C++ 예제 및 core를 분석 시도, 예제의 경우 어렵지 않으나 core단 부분은 framework등에 대한 document와 함께 보는 것이 좋을 것 같다. 그냥 보기에는 좀 어려움.
+
+음성인식에 있어서 1차원 wav data를 2차원(mfcc or spectogramd)으로 변환한 후 2d convolution을 돌려보는 것에 대해 idea 차원에서 고민해 보았다. 그럴 경우 image관련 대중적인 framework를 사용해 볼수 있지 않을까?? 
+그러나 본질적으로 image는 1차원/2차원의 context를 뽑아내는 것이 의미가 있지만 voice의 경우는 다르다. 1차원의 경우 time으로서 의미가 있지만 Y축의 경우 freq 등으로써 context를 뽑는 의미가 없다. 주파수단위에서 사람의 인식은 
+Linear scale이 아닌 db scale이다. 굳이 한다면 log를 취해줘야 할것 같다. 1d convoltion 또는 rnn을 가져가는 것이 맞을듯.
+음성 데이터의 경우 여러 어려움이 존재하고, 인간이 음파를 text로 인식하는 과정에 대한 이해가 deep learning modelling하는 데 도움이 될 것 같아서 좀더 자세히 폐 → 성대 → 성도(공명 등 발생)→ 매질(공기)→외이→ 중이→ 달팽이관 → 신경으로 가는 
+부분에 대해 공부하였다. 예전에도 봤지만 기본적으로 영어로 되어 있고, 관련 용어들이 익숙지 않아 어려웠는데 조금 나아진 듯.
+인간의 청각 능력이 복잡미묘한 것 같고 이를 정확히 이해한다면 deeplearning 모델링에도 도움이 될 것 같다.
+
+DeepSpeech input data pipe line 확인 및 기존의 dense layer를 1d convolution으로 바꿔서 training, but inference시 model loading 중에 error, variable/name scope관련 확인 필요
